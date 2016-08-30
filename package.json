@@ -1,0 +1,29 @@
+{
+  "name": "cordova-plugin-admob-m-adcolony",
+  "version": "1.0.0",
+  "description": "Add AdColony mediation to AdMob cordova plugin",
+  "cordova": {
+    "id": "cordova-plugin-admob-m-adcolony",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nonostante/cordova-plugin-admob-m-adcolony.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nonostante/cordova-plugin-admob-m-adcolony/issues"
+  },
+  "keywords": [
+    "cordova",
+    "ecosystem:cordova",
+    "adcolony",
+    "admob"
+  ],
+  "author": {
+    "name": "Giuseppe La Torre"
+  },
+  "license": "MIT"
+}

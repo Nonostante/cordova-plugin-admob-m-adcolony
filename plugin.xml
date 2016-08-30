@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        id="cordova-plugin-admob-m-adcolony"
+        version="1.0.0">
+      
+    <name>AdColony mediation for AdMob</name>
+    <description>Add AdColony mediation to AdMob cordova plugin</description>
+    <author>Nonostante</author>
+    <keywords>cordova,admob,adcolony</keywords>
+    <repo>https://github.com/nonostante/cordova-plugin-admob-m-adcolony.git</repo>
+    <issue>https://github.com/nonostante/cordova-plugin-admob-m-adcolony/issues</issue>
+
+    <engines>
+        <engine name="cordova" version=">=3.0" />
+    </engines>
+
+    <platform name="android">
+     </platform>
+
+     <platform name="ios">
+        <header-file src="src/ios/GADMAdapterAdColonyExtras.h" />
+        <header-file src="src/ios/GADMAdapterAdColonyInitializer.h" />
+        <source-file src="src/ios/libAdapterSDKAdColony.a" framework="true"/>
+    </platform>
+
+</plugin>
